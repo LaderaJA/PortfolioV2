@@ -1,0 +1,43 @@
+/* Project-specific styles */
+.project-header {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.project-description {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.screenshot {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+section { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1e1e1e; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: #f0f0f0;
+}
+
+.project-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #dcdcdc;
+}
+
+h2#project-page {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
