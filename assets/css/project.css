@@ -15,7 +15,11 @@
     margin-bottom: 20px;
 }
 
-section { 
+body.project-page {
+    padding-top: 80px;
+}
+
+body.project-page section { 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,6 +35,15 @@ section {
     color: #f0f0f0;
 }
 
+body.project-page section:first-of-type {
+    margin-top: 40px;
+}
+
+body.project-page footer {
+    position: relative;
+    z-index: 10;
+}
+
 .project-description {
     font-size: 1rem;
     line-height: 1.6;
@@ -41,3 +54,4 @@ h2#project-page {
     color: #ffffff;
     margin-bottom: 10px;
 }
+
